@@ -1,0 +1,82 @@
+.loader {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    border: 10px solid initial; /* Light grey */
+    border-top: 10px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    margin: -75px 0 0 -75px;
+    animation: spin 2s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  .animate-bottom{
+      position: relative;
+      animation-name: animatebottom;
+      animation-duration: 2s;
+  }
+  @keyframes animatebottom { 
+    from{ bottom:-100px; opacity:0 } 
+    to{ bottom:0; opacity:1 }
+  }
+  #main{
+      display: none;
+      text-align: center;
+  }
+body{
+  background-image: url("https://venngage-wordpress.s3.amazonaws.com/uploads/2018/09/Natural-Wood-Panels-Simple-Background-Image.jpeg");
+  
+  background-color: $blue;
+  text-align:center;
+  margin-left:100px;
+  margin-right:100px;
+  padding: 25px 30px;
+}
+.col-sm-8{
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+}
+#head{
+  color:white;
+  font-size:45px;
+  padding:30px;
+}
+#x1{
+  color:white;
+  font-size:20px;
+}
+
+input{
+  text-align: center;
+  padding:10px;
+  margin:20px;
+  border-radius:20px;
+  outline-color: initial;
+    outline-style: none;
+    outline-width: initial;
+  border-top-color: initial;
+    border-top-style: none;
+    border-top-width: initial;
+    border-right-color: initial;
+    border-right-style: none;
+    border-right-width: initial;
+    border-bottom-color: initial;
+    border-bottom-style: none;
+    border-bottom-width: initial;
+    border-left-color: initial;
+    border-left-style: none;
+    border-left-width: initial;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    color:black;
+  opacity:0.8;
+  font-size:25px;
+}
